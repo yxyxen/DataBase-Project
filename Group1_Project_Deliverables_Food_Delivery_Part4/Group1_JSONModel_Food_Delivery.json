@@ -1,0 +1,65 @@
+{
+"orderID": "O1",
+"orderContent": [
+    {
+    "foodID": "F1",
+    "restaurantID": "R1",
+    "foodName": "Burger",
+    "foodPrice": 5.99,
+    "quantity": 1
+    }
+],
+"customer": {
+    "customerID": "C1",
+    "customerPhoneNum": "3191111111",
+    "customerName": "Spider Man",
+    "customerAddress": "11 Iowa Ave"
+},
+"restaurant": {
+    "restaurantID": "R1",
+    "restaurantPhoneNum": "3190001111",
+    "restaurantAddress": "1 Capitol Street",
+    "menu": [
+        {
+        "foodID": "F1",
+        "foodName": "Burger",
+        "foodPrice": 5.99
+        }
+    ]
+    "resstaurantBankAccount": {
+        "accountNumber": "4444444444",
+        "accountType": "Checking",
+        "bankName": "B1",
+        "routingNumber": "666666111"
+    }
+},
+"driver": {
+    "driverID": "D1",
+    "driverName": "Mickey Mouse",
+    "driverPhoneNum": "3191110000",
+    "driverBankAccount": {
+        "accountNumber": "1111111111",
+        "accountType": "Checking",
+        "bankName": "B1",
+        "routingNumber": "666666111"
+    }
+},
+"orderDate": "2019-01-01",
+"orderTime": "06:57:12.5",
+"orderAddress": "11 Iowa Ave",
+"orderNotes": null,
+"isPaid": TRUE,
+"isDelivered": TRUE,
+"deliveryFee": 2.99,
+"tip": 5,
+"coupon": 0,
+"creditCard": {
+    "CCNumber": "1111111111111111",
+    "expDate": "1220",
+    "nameOnCard": "Iron Man"
+},
+"restaurantRating": 4.5,
+"restaurantComment": "Good",
+"driverRating": 5,
+"driverComment": null
+}
